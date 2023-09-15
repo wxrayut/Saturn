@@ -8,7 +8,9 @@ This tool is a utility designed to modify files in the popular mobile game Arena
 This is free tool, If you buy this tool from someone you so fucking stupid.
 
 ## Resource
-- You can manually update new resources, if you can.
+When prompted `Server reconnection failed. Please check your mobile network` Please be aware that `Resources` is not last version.
+
+- You can manually update new `Resources`, if you can.
 
 ## Usage
 1. Select the skin you want from the `Skin lists` folder.

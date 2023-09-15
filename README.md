@@ -1,6 +1,9 @@
 # AoV Tool
 This tool is a utility designed to modify files in the popular mobile game Arena of Valor. With this tool, you can create skins favorite in the game.
 
+## Did you know?
+This is free tool, If you buy this tool from someone you so fucking stupid.
+
 ## Resource
 - You can manually update new resources, if you can.
 

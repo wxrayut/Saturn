@@ -19,7 +19,7 @@ When prompted `Server reconnection failed. Please check your mobile network` Ple
 4. Output will be a `.zip` file.
 
 ## Installation
-### Android
+### Android (for Android version ≤ 10.)
 
 #### File manager
 - [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&hl=th&gl=US&pli=1)

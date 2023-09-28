@@ -42,5 +42,8 @@ When prompted `Server reconnection failed. Please check your mobile network` Ple
 ## Disclaimer
 Modifying game files or using unofficial tools to alter game content may violate the game's terms of service and result in penalties or a ban. Please use this tool responsibly.
 
+## Note: Not Open Source
+This tool is currently not open source. I have chosen not to release the source code at this time.
+
 ## License
 [MIT License](LICENSE).

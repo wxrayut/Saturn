@@ -1,0 +1,13 @@
+name: Bug Report
+description: You think somethings is broken in this tool.
+title: "[Bug]: "
+labels: ["bug"]
+
+body:
+  - type: textarea
+  id: what-did
+  attributes:
+    label: What happened?
+    description: Tell us what happened in a very clear and simple way
+  validations:
+    required: true

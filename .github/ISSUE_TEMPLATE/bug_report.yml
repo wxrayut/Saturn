@@ -1,4 +1,4 @@
-name: Bug Report
+name: Bug report
 description: You think somethings is broken in this tool.
 title: "[Bug]: "
 labels: ["bug"]

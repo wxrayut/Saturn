@@ -20,7 +20,7 @@ If you encounter the message `Server reconnection failed. Please check your mobi
 
 ## File Manager
 - Android [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&hl=th&gl=US&pli=1)
-- IOS [Filza file Manager]
+- IOS [Filza file Manager]()
 
 ## Android (for Android version ≤ 10.)
 

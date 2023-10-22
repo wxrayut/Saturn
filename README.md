@@ -1,48 +1,49 @@
 ![img](https://media.discordapp.net/attachments/1119950039079465000/1162968171163172924/Screenshot_2023-10-15_110241.png?ex=653ddd82&is=652b6882&hm=e715b00ed7802196278f4eae1b03b45be0dea8232f491d66a943bdcd8b2d1838&=)
 
 # AoV Tool
-This tool is a utility designed to modify files in the popular mobile game Arena of Valor. With this tool, you can create skins favorite in the game.
+This utility is designed to modify files in the popular mobile game Arena of Valor. With this tool, you can create your favorite in-game skins.
 
-## Did you know?
-This is free tool, If you buy this tool from someone you so fucking stupid.
+# Did you know?
+This tool is free. If you buy this tool from someone, you so fucking stupid.
 
-## Resource
-When prompted `Server reconnection failed. Please check your mobile network` Please be aware that `Resources` is not last version.
+# Resource
+If you encounter the message `Server reconnection failed. Please check your mobile network`, please be aware that the `Resources` may not be the latest version.
+- You can manually update the new `Resources`.
 
-- You can manually update new `Resources`, if you can.
+# Usage
+1. Select the skin you desire from the `Skin lists` folder.
+2. Copy and paste it into the `TASK` folder.
+3. Double-click `AoV_Mod-Tool.exe` to run the program.
+5. The output will be a `.zip` file.
 
-## Usage
-1. Select the skin you want from the `Skin lists` folder.
-2. Copy and Paste it in the `TASK` folder.
-3. Double click `AoV_Mod-Tool.exe` to run the program.
-4. Output will be a `.zip` file.
+# Installation
 
-## Installation
-### Android (for Android version ≤ 10.)
+## File Manager
+- Android [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&hl=th&gl=US&pli=1)
+- IOS [Filza file Manager]()
 
-#### File manager
-- [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&hl=th&gl=US&pli=1)
+## Android (for Android version ≤ 10.)
 
-1. Copy all subfolder in `.zip` file.
+1. Copy all subfolder in the `.zip` file.
 - Ages
 - AssetRefs
 - Databin
 - Prefab_Characters
-  
+
 2. Navigate to `Android/Data/com.garena.game.kgth/files/Resources/(GAME PATCH)/` on your Android device.
-3. Paste the copied subfolders into the above directory.
+3. Paste the copied subfolders into the directory mentioned above.
 4. When prompted, select "Apply to all files" to apply the modifications to all relevant files.
-5. Press "REPLACE" to complete the installation.
+6. Press "REPLACE" to complete the installation.
 
-### IOS 
-#### No Supported.
-- Actually, it is supported but requires Jailbreak.
+## IOS 
+- Although it is technically possible with Jailbreak.
 
-## Disclaimer
-Modifying game files or using unofficial tools to alter game content may violate the game's terms of service and result in penalties or a ban. Please use this tool responsibly.
+# Disclaimer
+- This tool is created solely for educational purposes and is not intended for any illegal or unauthorized activities. It is meant to help users explore and learn more about game modification and development within the boundaries of the game's terms of service. Please use this tool responsibly and in accordance with the game's rules and policies.
+- Modifying game files or using unofficial tools to alter game content may violate the game's terms of service and result in penalties or a ban. Please use this tool responsibly.
 
-## Note: Not Open Source
-This tool is currently not open source. I have chosen not to release the source code at this time.
+# Note
+- This tool is not open source at the moment. I have chosen not to release the source code at this time.
 
-## License
+# License
 [MIT License](LICENSE).

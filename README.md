@@ -1,5 +1,3 @@
-![img](https://media.discordapp.net/attachments/1119950039079465000/1162968171163172924/Screenshot_2023-10-15_110241.png?ex=653ddd82&is=652b6882&hm=e715b00ed7802196278f4eae1b03b45be0dea8232f491d66a943bdcd8b2d1838&=)
-
 # AoV Tool
 This utility is designed to modify files in the popular mobile game Arena of Valor. With this tool, you can create your favorite in-game skins.
 

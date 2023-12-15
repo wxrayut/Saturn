@@ -54,3 +54,4 @@ These file have pattern to modify as the same, therefore code for modify these f
 - **Hayate : Shangrila Origin :** Needs to create additional elements to xml files, for complete skill effects.
 
 If the game has updated with new skins beyond the mentioned examples, the tool should still function normally.
+

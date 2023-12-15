@@ -1,3 +1,6 @@
+# Announcement
+[Announcement](https://github.com/wxrayut/Saturn/blob/main/docs/announcement.md).
+
 # AoV Tool
 This utility is designed to modify files in the popular mobile game Arena of Valor. With this tool, you can create your favorite in-game skins.
 

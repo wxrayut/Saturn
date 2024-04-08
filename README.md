@@ -1,3 +1,7 @@
+# Announcement
+
+I will not updates or enhancements for this tool anymore, because someone is selling my tool.
+
 # AoV Tool
 This utility is designed to modify files in the popular mobile game Arena of Valor. With this tool, you can create your favorite in-game skins.
 

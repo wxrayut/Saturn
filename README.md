@@ -1,6 +1,13 @@
 # AoV Tool
 This utility is designed to modify files in the popular mobile game Arena of Valor. With this tool, you can create your favorite in-game skins.
 
+> [!CAUTION]
+>
+> **AoV Tool** is archived and no longer actively maintained.
+> While the repository remains accessible, no further updates or bug fixes will be provided.
+> Bugs may be addressed, but this is not guaranteed. Please use this tool "as-is."
+> If you encounter any issues, you can attempt to troubleshoot on your own. 
+
 # Did you know?
 This tool is free. If you buy this tool from someone, you so fucking stupid.
 

@@ -56,18 +56,11 @@
     │   │       └── Prefab_Hero
     │   │           │── Actor_*_Actions.pkg.bytes
     │   │           │── ...
-    │   │           │── CommonActions.pkg.bytes
-    │   ├── A̶s̶s̶e̶t̶R̶e̶f̶s̶   # Unsupported.
-    │   │   └── Hero
-    │   │       ├── *_̶AssetRef.bytes
-    │   │       ├── ...
+    │   │           └── CommonActions.pkg.bytes
     │   ├── Databin
     │   │   └── Client
     │   │       ├── Actor
-    │   │       │   │── heroSkin.bytes
-    │   │       │   └── o̶r̶g̶a̶n̶S̶k̶i̶n̶.̶b̶y̶t̶e̶s̶
-    │   │       ├── Shop 
-    │   │       │   └── H̶e̶r̶o̶S̶k̶i̶n̶S̶h̶o̶p̶.̶b̶y̶t̶e̶s̶   # Unsupported.
+    │   │       │   └── heroSkin.bytes
     │   │       ├── Skill
     │   │       │   │── liteBulletCfg.bytes
     │   │       │   └── skillmark.bytes

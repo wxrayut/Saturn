@@ -1,54 +1,149 @@
-# AoV Tool
-This utility is designed to modify files in the popular mobile game Arena of Valor. With this tool, you can create your favorite in-game skins.
+<div align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/en/e/ef/Arena_of_Valor_Logo_2021.png" width="130" alt="ArenaOfValor Logo" />
+    <h2>skins-diffusion.exe</h2>
+</div>
+
+
+<p>An executable file for modifying <i><a href="https://en.wikipedia.org/wiki/Arena_of_Valor">Arena of Valor</a></i> game files, allowing users to create in-game skins for your favorite heroes.</p>
+
 
 > [!CAUTION]
 >
-> **AoV Tool** is archived and no longer actively maintained.
+> **skins-diffusion.exe** is archived and no longer actively maintained.
 > While the repository remains accessible, no further updates or bug fixes will be provided.
 > Bugs may be addressed, but this is not guaranteed. Please use this tool "as-is."
 > If you encounter any issues, you can attempt to troubleshoot on your own. 
 
-# Did you know?
-This tool is free. If you buy this tool from someone, you so fucking stupid.
+### 🖥️ Supported Operating Systems
 
-# Resource
-If you encounter the message `Server reconnection failed. Please check your mobile network`, please be aware that the `Resources` may not be the latest version.
-- You can manually update the new `Resources`.
+- [x] Windows
+- [ ] macOS
+- [ ] Linux
 
-# Usage
-1. Select the skin you desire from the `Skin lists` folder.
-2. Copy and paste it into the `TASK` folder.
-3. Double-click `AoV_Mod-Tool.exe` to run the program.
-5. The output will be a `.zip` file.
 
-# Installation
+### ✨ Features
 
-## File Manager
-- Android [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&hl=th&gl=US&pli=1)
-- IOS [Filza file Manager]()
+- [x] Skill Effects
+- [x] Recall Effects
+- [x] Haste Effects
 
-## Android (for Android version ≤ 10.)
+> [!IMPORTANT]  
+>
+> New skins introduced after version `1.52.1` will not support Recall Effects and Haste Effects.
 
-1. Copy all subfolder in the `.zip` file.
-- Ages
-- AssetRefs
-- Databin
-- Prefab_Characters
+- [x] Skin Icon and Background
+- [ ] Dimension Breaker Skin Assets
+- [ ] Skin Label
+- [x] Sound Effects
+- [x] Model
 
-2. Navigate to `Android/Data/com.garena.game.kgth/files/Resources/(GAME PATCH)/` on your Android device.
-3. Paste the copied subfolders into the directory mentioned above.
-4. When prompted, select "Apply to all files" to apply the modifications to all relevant files.
-6. Press "REPLACE" to complete the installation.
 
-## IOS 
-- Although it is technically possible with Jailbreak.
+### 🚀 Usage
 
-# Disclaimer
-- This tool is created solely for educational purposes and is not intended for any illegal or unauthorized activities. It is meant to help users explore and learn more about game modification and development within the boundaries of the game's terms of service. Please use this tool responsibly and in accordance with the game's rules and policies.
-- Modifying game files or using unofficial tools to alter game content may violate the game's terms of service and result in penalties or a ban. Please use this tool responsibly.
+- Go to the [Releases](https://github.com/wxrayut/skins-diffusion.exe/releases) page and download the latest `skins-diffusion.exe`.
+- Make sure to place the necessary game resources in the `Resources` folder.
+- Pick your desired skin(s) from the `skins` folder.
+- Copy the selected skin(s) into the `Tasks` folder.
+- Then run the `skins-diffusion.exe`.
 
-# Note
-- This tool is not open source at the moment. I have chosen not to release the source code at this time.
+### 📂 File Overview Structure
 
-# License
-[MIT License](LICENSE).
+    skins-diffusion.exe/
+    ├── ...
+    ├── Resources/ # Necessary game resources should be stored here.
+    │   ├── Ages
+    │   │   └── Prefab_Characters
+    │   │       └── Prefab_Hero
+    │   │           │── Actor_*_Actions.pkg.bytes
+    │   │           │── ...
+    │   │           │── CommonActions.pkg.bytes
+    │   ├── A̶s̶s̶e̶t̶R̶e̶f̶s̶   # Unsupported.
+    │   │   └── Hero
+    │   │       ├── *_̶AssetRef.bytes
+    │   │       ├── ...
+    │   ├── Databin
+    │   │   └── Client
+    │   │       ├── Actor
+    │   │       │   │── heroSkin.bytes
+    │   │       │   └── o̶r̶g̶a̶n̶S̶k̶i̶n̶.̶b̶y̶t̶e̶s̶
+    │   │       ├── Shop 
+    │   │       │   └── H̶e̶r̶o̶S̶k̶i̶n̶S̶h̶o̶p̶.̶b̶y̶t̶e̶s̶   # Unsupported.
+    │   │       ├── Skill
+    │   │       │   │── liteBulletCfg.bytes
+    │   │       │   └── skillmark.bytes
+    │   │       └── Sound
+    │   │           │── BattleBank.bytes
+    │   │           │── ChatSound.bytes
+    │   │           │── HeroSound.bytes
+    │   │           │── LobbyBank.bytes
+    │   │           └── LobbySound.bytes
+    │   └── Prefab_Characters
+    │       ├── Actor_*_Infos.pkg.bytes
+    │       └── ...
+    ├── skins/  # List of skins you can modify will be store here, 
+    │       │   # you can pick one or more skins and paste into the Tasks folder.
+    │       └── ... 
+    ├── Tasks/
+    │       └── # Whatever skins you want to modify, should be here.
+    ├── skins-diffusion.exe # The executable file should be here.
+    ...
+
+
+### 🎯 Apply the Mod Skin(s)
+
+- #### Android (For Android version ≤ 10)
+
+    - Extract the .zip file and copy all subfolders:
+
+        `Ages` `AssetRefs` `Databin` `Prefab_Characters`
+
+    - Navigate to: `Android/Data/com.garena.game.kgth/files/Resources/(GAME PATCH)/`
+
+    - Paste the copied subfolders into the directory above.
+    
+    - When prompted, select "**Apply to all files**" to overwrite the necessary files.
+
+    - Tap "**REPLACE**" to complete the installation.
+
+- #### iOS
+
+    On **iOS**, you cannot access the game directory unless you install the game using a **.ipa** file (which you can find on sites like [decrypt.day](https://decrypt.day/)) by using some sideloader tool. In this way you can access the game directory.
+
+    > [!WARNING]  
+    >
+    > Make sure you **.ipa** file is **Anti-Ban** (Don’t worry, this is not directly related to the mod skin.).
+
+    Open the **Files app → On My iPhone → AoV** (or the app name you set during installation). Follow the same steps as **Android** to apply the mod skins—the process is identical.
+
+
+### 👎 Failure
+
+If you encounter the warning message:
+`Network failure, Please reconnect` while using the mod skin:
+
+<div align="center">
+    <img src="https://f.ptcdn.info/595/076/000/r8en56pwaaK7Ks0m3OAu-o.jpg" width="700" alt="ArenaOfValor WarningMessage" />
+</div>
+<h4>💭 Possible Causes & Solutions:</h4>
+<ol>
+    <li><b>Outdated Resources</b> – Your <b>Resources</b> folder may not be up to date. Try manually updating it to the latest version.
+    </li>
+    <li><b>Skin Compatibility Issues</b> – Some skins require additional modifications. Unfortunately, all you can do is wait. If this is a known issue, it may be addressed in future versions (if applicable).</li>
+</ol>
+
+
+### 📜 Disclaimer
+
+- Modifying game files is against the **terms of service** of Arena of Valor and may lead to account suspension or a ban.
+- By using this tool, you **accept full responsibility** for any consequences that may arise.
+- Use at **your own risk**.
+
+
+### < / > Source Code
+
+This tool is not open source. I am not ready to release the source code at this time.
+
+
+### 📄 License
+
+This software is distributed under an End-User License Agreement (EULA).

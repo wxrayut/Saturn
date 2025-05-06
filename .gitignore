@@ -1,0 +1,6 @@
+
+# Ignore all files inside the Resources folder (game assets should be placed manually).
+./Resources/*
+
+# Ignore skins inside the Tasks folder.
+./Tasks/*
